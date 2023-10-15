@@ -26,3 +26,8 @@ export NVM_DIR="$HOME/.nvm"
 # >> starship
 export STARSHIP_CONFIG=~/.config/starship.toml
 # << starship
+
+# >> aliases
+alias vi="nvim"
+alias vim="nvim"
+# << aliases

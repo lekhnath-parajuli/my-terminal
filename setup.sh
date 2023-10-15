@@ -12,9 +12,14 @@ git clone git://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plu
 # << git clones
 
 # << configurations
-cp ./iterm/starship.toml ~/.config/starship.toml
+cp ./terminal/starship/starship.toml ~/.config/starship.toml
 # >> configurations
 
 # << themes
-open ./iterm/Snazzy.itermcolors
+open ./terminal/iterm/Snazzy.itermcolors
 # >> themes
+
+
+# << nvim
+cp -R ./nvim ~/.config/
+# >> nvim
